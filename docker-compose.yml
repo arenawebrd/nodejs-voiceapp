@@ -7,7 +7,7 @@ services:
     image: fonoster/nodejsvoiceapp:latest
     restart: always
     ports:
-      - 3010:3010
+      - 5000:5000
     environment:
       LOGS_LEVEL: verbose
       # Uncomment the following line to enable fluent transport
