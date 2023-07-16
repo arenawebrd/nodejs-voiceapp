@@ -1,7 +1,7 @@
 ##
 ## Build
 ##
-FROM node:lts-alpine as builder
+FROM node:18-bullseye as builder
 LABEL Fonoster Team <fonosterteam@fonoster.com>
 
 COPY . /build
